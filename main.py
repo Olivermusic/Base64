@@ -2,9 +2,10 @@ from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
 import telebot
 import hashlib
 import base64
+import os
 
-bot = telebot.TeleBot("5995779364:AAGDnl_Wk1UDWiJVyXDOb6KGJ9raTJf7RvM")
 
+bot = os.environ.get("token")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
