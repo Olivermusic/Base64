@@ -1,0 +1,35 @@
+{
+    "name": "base64",
+    "description": "PY husisen",
+    "keywords": [
+        "telegram",
+        "bot",
+        "heroku",
+        "app.json",
+        "app",
+        "json",
+        "maker",
+        "generator"
+    ],
+        "repository": "https://github.com/SS7SS/base64",
+    "website": "https://t.me/hussien_pyrofram",
+    "success_url": "https://t.me/hussien_pyrogram",
+    "env": {
+
+        "session": {
+            "description": "ضع كود بايروكرام الخاص بك"
+        }
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
