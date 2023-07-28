@@ -14,7 +14,7 @@ def send_welcome(message):
     itembtn8 = InlineKeyboardButton('تشفير Base32', callback_data='base32_encode')
     itembtn9 = InlineKeyboardButton('فك تشفير Base32', callback_data='base32_decode')
     markup.add(itembtn6, itembtn7, itembtn8, itembtn9)
-    bot.send_message(message.chat.id, "مرحبًا بك في روبوت التشفير / فك التشفير. الرجاء تحديد خيار: @V_0_E", reply_markup=markup)
+    bot.send_message(message.chat.id, "مرحبًا بك في روبوت التشفير / فك التشفير. الرجاء تحديد خيار: @hussien_pyrogram", reply_markup=markup)
 
 @bot.callback_query_handler(func=lambda call: True)
 def handle_callback_query(call):
