@@ -1,4 +1,3 @@
 pyTelegramBotAPI
 telebot
-hashlib
 base64
