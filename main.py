@@ -5,7 +5,7 @@ import base64
 import os
 
 
-bot = os.environ.get("token")
+bot = telebot.TeleBot(os.environ.get("token"))
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
