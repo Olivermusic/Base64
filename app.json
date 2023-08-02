@@ -20,7 +20,7 @@
             "description": "ضع ايبي ايدي الخاص بك",
             "required": "False",
             "value": ""
-        }
+        },
     },
     "stack": "heroku-20",
     "buildpacks": [
