@@ -11,7 +11,7 @@
         "maker",
         "generator"
     ],
-    "repository": "https://github.com/SS7SS/communication",
+    "repository": "https://github.com/SS7SS/base64",
     "website": "https://t.me/hussien_pyrogram",
     "success_url": "https://t.me/hussien_pyrogram",
     "env": {
