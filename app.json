@@ -15,16 +15,11 @@
     "website": "https://t.me/hussien_pyrogram",
     "success_url": "https://t.me/hussien_pyrogram",
     "env": {
-        "api_hash": {
-            "description": "ضع ايبي هاش الخاص بك"
         },
         "token": {
-            "description": "ضع ايبي ايدي الخاص بك",
+            "description": "ضع التوكن الخاص بك",
             "required": "False",
             "value": ""
-        },
-        "token": {
-            "description": "ضع التوكن الخاص بك"
         }
     },
     "stack": "heroku-20",
