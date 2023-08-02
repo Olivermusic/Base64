@@ -1,5 +1,5 @@
 {
-    "name": "بوت تشفير وفك تشفير",
+    "name": "بوت تواصل",
     "description": "المطور حسين بايروكرام",
     "keywords": [
         "telegram",
@@ -11,13 +11,13 @@
         "maker",
         "generator"
     ],
-    "repository": "https://github.com/SS7SS/base64",
+    "repository": "https://github.com/SS7SS/communication",
     "website": "https://t.me/hussien_pyrogram",
     "success_url": "https://t.me/hussien_pyrogram",
     "env": {
+        "api_hash": {
+            "description": "ضع ايبي هاش الخاص بك"
         },
-        "token": {
-            "description": "ضع التوكن الخاص بك",
         }
     },
     "stack": "heroku-20",
