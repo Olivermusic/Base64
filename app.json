@@ -16,7 +16,7 @@
     "success_url": "https://t.me/hussien_pyrogram",
     "env": {
         "token": {
-            "description": "ضع التوكن الخاص بك هنا"
+            "description": "ضع التوكن الخاص بك"
         }
     },
     "stack": "heroku-20",
