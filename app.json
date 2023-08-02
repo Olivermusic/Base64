@@ -1,36 +1,7 @@
-{
-    "name": "بوت تشفير وفك تشفير",
-    "description": "المطور حسين بايروكرام",
-    "keywords": [
-        "telegram",
-        "bot",
-        "heroku",
-        "app.json",
-        "app",
-        "json",
-        "maker",
-        "generator"
-    ],
-    "repository": "https://github.com/SS7SS/base64",
-    "website": "https://t.me/hussien_pyrogram",
-    "success_url": "https://t.me/hussien_pyrogram",
-    "env": {
         },
-        "token": {
-            "description": "ضع التوكن الخاص بك",
+        "id": {
+            "description": "ضع ايدي المطور الخاص بك",
             "required": "False",
             "value": ""
         }
     },
-    "stack": "heroku-20",
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "eco"
-        }
-    }
