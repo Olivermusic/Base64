@@ -1,6 +1,6 @@
 {
-    "name": "base64",
-    "description": "PY husisen",
+    "name": "بوت تشفير وفك تشفير",
+    "description": "المطور حسين بايروكرام",
     "keywords": [
         "telegram",
         "bot",
@@ -11,13 +11,15 @@
         "maker",
         "generator"
     ],
-        "repository": "https://github.com/SS7SS/base64",
-    "website": "https://t.me/hussien_pyrofram",
+    "repository": "https://github.com/SS7SS/base64",
+    "website": "https://t.me/hussien_pyrogram",
     "success_url": "https://t.me/hussien_pyrogram",
     "env": {
-
+        },
         "token": {
-            "description": "ضع التوكن الخاص بك هنا"
+            "description": "ضع ايبي ايدي الخاص بك",
+            "required": "False",
+            "value": ""
         }
     },
     "stack": "heroku-20",
