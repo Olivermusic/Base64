@@ -15,7 +15,6 @@
     "website": "https://t.me/hussien_pyrogram",
     "success_url": "https://t.me/hussien_pyrogram",
     "env": {
-
         "token": {
             "description": "ضع التوكن الخاص بك هنا"
         }
