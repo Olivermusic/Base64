@@ -17,10 +17,10 @@
     "env": {
         },
         "token": {
-            "description": "ضع ايبي ايدي الخاص بك",
+            "description": "ضع التوكن الخاص بك",
             "required": "False",
             "value": ""
-        },
+        }
     },
     "stack": "heroku-20",
     "buildpacks": [
